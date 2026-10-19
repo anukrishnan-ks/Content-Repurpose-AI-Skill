@@ -19,7 +19,7 @@ Or inside a Claude Code session:
 
 ## Use
 
-Paste an article and say "Repurpose this for social media", or run
+Paste an article **or a link to one** and say "Repurpose this for social media", or run
 `/content-repurposer:content-repurposer`.
 
 ## Update
@@ -31,3 +31,13 @@ Bump `version` in `plugins/content-repurposer/.claude-plugin/plugin.json` and pu
 The instructions live in
 `plugins/content-repurposer/skills/content-repurposer/SKILL.md`. Paste them into a
 ChatGPT Custom GPT, a Gemini Gem, or any tool that reads SKILL.md files.
+
+## Test locally
+
+From `plugins/content-repurposer/`:
+
+```bash
+claude plugin validate .                         # check files and format
+claude --plugin-dir .                            # try it by hand in a session
+claude plugin eval . --judge-model sonnet --allow-tools WebFetch   # run the automatic tests in evals/
+```
