@@ -6,14 +6,14 @@ versions for LinkedIn, Instagram (caption + carousel) and X (post + thread).
 ## Install (Claude Code)
 
 ```bash
-claude plugin marketplace add YOUR-GITHUB-USERNAME/content-repurposer-marketplace
+claude plugin marketplace add anukrishnan-ks/content-repurposer-marketplace
 claude plugin install content-repurposer@content-repurposer-marketplace
 ```
 
 Or inside a Claude Code session:
 
 ```
-/plugin marketplace add YOUR-GITHUB-USERNAME/content-repurposer-marketplace
+/plugin marketplace add anukrishnan-ks/content-repurposer-marketplace
 /plugin install content-repurposer@content-repurposer-marketplace
 ```
 
