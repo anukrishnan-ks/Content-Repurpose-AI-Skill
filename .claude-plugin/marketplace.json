@@ -1,0 +1,14 @@
+{
+  "name": "content-repurposer-marketplace",
+  "description": "Turn long-form content into LinkedIn, Instagram and X posts",
+  "owner": {
+    "name": "Anukrishnan KS"
+  },
+  "plugins": [
+    {
+      "name": "content-repurposer",
+      "source": "./plugins/content-repurposer",
+      "description": "Repurpose blog posts, articles and transcripts into platform-native social media posts"
+    }
+  ]
+}
